@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+h1,h2{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+h3,h4,h5,h6{
+    
+    font-family: 'Rubik', sans-serif;
+}
+body{
+   /* font-family: 'Titillium Web', sans-serif;*/
+    font-family: 'Akaya Telivigala', cursive;
+}
+p{
+    font-size: 18px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 45px;
+}
+.navbar-brand{
+    color: #47ff23 !important;
+    font-weight: 500;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: end;
+    
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-items: center;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #47ff23;
+    padding: 0 10px;
+    margin: 2px 5px;
+    border: 2px solid transparent;
+    align-items: center;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+border-color: #2dfa2d;
+border: 2px solid;
+}
+
+.Toggle{
+    color: #2dfa2d;
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-item::before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+}
+.carousel-inner .carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 25%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption h5{
+    font-size: 50px;
+    text-shadow: 0 0 5px black;
+}
+.carousel-caption p{
+    font-size: 20px;
+    text-shadow: 0 0 5px black;
+}
+body{
+    background-color: black;
+}
+.row{
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.it img{
+    width: 100%;
+}
+
+.it .col-sm-3{
+    margin: 0;
+    padding: 0;
+}
+.section{
+    
+    background-image: url(../images/freefire1.jpg);
+    /* padding: 200px 0px; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 150px;
+}
+.section1 input{
+    padding: 0 10px;    
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    margin: 10px;
+    border: #2dfa2d 2px solid;
+    background-color: black;
+    color: white;
+}
+.section1 textarea{
+    height: 190px;
+    line-height: 190px;
+    width: 100%;
+    margin: 10px;
+    resize: none;
+    border: #2dfa2d 2px solid;
+    background-color: black;
+    color: white;
+}
+.section1 .btn{
+    border: #47ff23 2px solid;
+    color: white;
+    text-align: center;
+
+}
+.section1 .btn:active{
+    transform: translateY(4px);
+}
+.dropdown-menu{
+    min-width: 300px;
+    height: fit-content;
+    background: black;
+    padding: 20px 20px;
+    color: #2dfa2d;
+    
+}
+.dropdown-menu input {
+    background-color: transparent;
+    border-color: rgb(71, 255, 35);
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #eef3ed;
+}
+.dropdown .login{
+    background: transparent;
+    border: #47ff23 2px solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #47ff23;
+}
+.dropdown-menu input{
+    background-color: transparent;
+    border-color:#47ff23 ;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.dropdown-menu input[type="button"]{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+    width: 50%;
+    color: white;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -200px;
+    margin-top: 0.125rem;
+}
+.center-line{
+    display: flex;
+    justify-content: center;
+}
+.line{
+    width: 200px;
+    height: 3px;
+    background: #47ff23;
+    margin: 5px 0;
+}
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #47ff23;
+}
+footer li{
+    color: #2dfa2d;
+    list-style-type: none;
+}
